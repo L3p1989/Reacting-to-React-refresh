@@ -1,9 +1,10 @@
 import React from 'react';
+import Greeter from './components/Greeter';
 
 const App = () => {
     return (
         <>
-            <h1>This is react!</h1>
+            <Greeter text="Hello there" name="L3p" />
         </>
     );
 }
