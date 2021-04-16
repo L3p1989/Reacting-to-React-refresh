@@ -18,7 +18,7 @@ const App = () => {
 
     else return (
         <>
-            <h1>Website loading...</h1>
+            <button onClick={() => setLoaded(true)}>Website loading...</button>
         </>
     );
 }
