@@ -18,7 +18,8 @@ const App = () => {
 
     else return (
         <>
-            <button onClick={() => setLoaded(true)}>Website loading...</button>
+            <h1>Website loading...</h1>
+            <button onClick={() => setLoaded(true)}>Load?</button>
         </>
     );
 }
