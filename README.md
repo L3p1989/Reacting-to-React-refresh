@@ -10,7 +10,7 @@
 6. Create an `App.jsx` and a `index.js` file inside of `src`.
 7. Write the basic "entry point" code for the `index.js` file, avoid copy/paste so you can practice writing it yourself!
 
-```javascript
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
