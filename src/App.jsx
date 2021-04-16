@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Greeter from './components/Greeter';
 
 const App = () => {
 
     const [email, setEmail] = useState('');
     const [loaded, setLoaded] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoaded(true)
+          }, 3000);
+    }, [loaded])
 
     if (loaded) return (
         <>
